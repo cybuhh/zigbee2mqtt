@@ -25,7 +25,8 @@ services:
       - TZ=Europe/Berlin
     devices:
       # Make sure this matched your adapter location
-      - /dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE2686689-if00:/dev/ttyACM0
+      # - /dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE2686689-if00:/dev/ttyACM0
+      - /dev/ttyACM0
     links:
       - mqtt
     depends_on:
