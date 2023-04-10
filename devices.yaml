@@ -1,0 +1,7 @@
+'0xf4b3b1fffe9b4548':
+  friendly_name: 'ikea_aqi'
+
+  # manufacturer code 0x117c
+  # mac capabilities 0x8e
+  # server mask 0x2c00
+  # nwk address 0xFE9F

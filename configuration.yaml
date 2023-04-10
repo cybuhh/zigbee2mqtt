@@ -24,3 +24,13 @@ mqtt:
 serial:
   # Location of CC2531 USB sniffer
   port: /dev/ttyACM0
+  adapter: deconz
+
+advanced:
+  # Optional: Logging level, options: debug, info, warn, error (default: info)
+  log_level: debug
+  log_output:
+    - console
+    - file
+
+devices: devices.yaml
