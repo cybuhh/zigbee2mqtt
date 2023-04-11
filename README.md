@@ -12,3 +12,7 @@ https://hub.docker.com/r/koenkk/zigbee2mqtt/tags
 https://www.zigbee2mqtt.io/devices/E2112.html
 
 https://github.com/Koenkk/zigbee2mqtt/issues/16717
+
+##
+
+pan id: 0x1a62 -> 6754
